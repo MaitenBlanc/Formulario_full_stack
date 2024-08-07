@@ -16,11 +16,6 @@ function verificarFecha() {
     let fechaActual = new Date();
     let edad = fechaActual.getFullYear() - fecha.getFullYear();
 
-    console.log(fecha)
-    console.log(fechaActual)
-    console.log(edad)
-
-    // TODO sacar el alert y poner un aviso
     const edadError = document.querySelector(".error");
 
     fechaNacimiento.addEventListener("input", (event) => {

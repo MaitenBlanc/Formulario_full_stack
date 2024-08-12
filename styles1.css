@@ -24,10 +24,10 @@ body {
 .form label {
     display: flex;
     padding-bottom: 0.2em;
+    margin-top: 1em;
 }
 
 .form input {
-    margin-bottom: 1em;
     padding: 0.5em;
     width: 93%;
     border: 2px solid rgb(233, 160, 255);
@@ -60,6 +60,7 @@ button {
     border-radius: 0.5em;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .error {

@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     <title>Clase 1 - Formulario</title>
 </head>
@@ -20,11 +20,11 @@
         <form class="form" id="form">
             <div>
                 <label for="nombre">Nombre: </label>
-                <input type="text" id="nombre" name="nombre" required>
+                <input type="text" id="nombre" name="nombre" pattern="^[ \p{L}]+(?: [\p{L}]+)*$" required>
                 <span id="error_blanco"></span>
 
                 <label for="apellido">Apellido: </label>
-                <input type="text" id="apellido" name="apellido" required>
+                <input type="text" id="apellido" name="apellido" pattern="^[ \p{L}]+(?: [\p{L}]+)*$" required>
                 <span id="error_blanco"></span>
 
                 <label for="email">Email: </label>
@@ -34,9 +34,9 @@
                 <label for="date">Fecha de Nacimiento: </label>
                 <input type="date" id="date" name="date" required>
                 <span id="error"></span>
-                
+
                 <label for="pais">País de Residencia: </label>
-                <input type="text" id="pais" name="pais" required>
+                <input type="text" id="pais" name="pais" pattern="^[ \p{L}]+(?: [\p{L}]+)*$" required>
                 <span id="error_blanco"></span>
 
                 <button type="submit" id="envio">Enviar</button>

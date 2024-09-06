@@ -14,20 +14,20 @@ body {
     align-items: center;
 }
 
-.form {
+#form {
     border: 1px solid rgb(233, 160, 255);
     border-radius: 0.5em;
     padding: 2em;
     box-shadow: rgba(195, 0, 255, 0.2) 0px 7px 29px 0px;
 }
 
-.form label {
+#form label {
     display: flex;
     padding-bottom: 0.2em;
     margin-top: 1em;
 }
 
-.form input {
+#form input {
     padding: 0.5em;
     width: 93%;
     border: 2px solid rgb(233, 160, 255);
@@ -37,11 +37,11 @@ body {
     margin: 0;
 }
 
-.form input:focus {
+#form input:focus {
     outline: 2px solid rgba(195, 0, 255, 0.2);
 }
 
-.form button {
+#form button {
     margin-top: 2em;
     width: 100%;
 }

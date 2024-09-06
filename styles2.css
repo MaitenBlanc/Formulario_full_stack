@@ -19,7 +19,7 @@ body {
 
 .form {
     border: 1px solid rgb(255, 217, 0);
-    border-radius: 0.5em; 
+    border-radius: 0.5em;
     padding: 2em;
     box-shadow: rgba(255, 217, 0, 0.2) 0px 7px 29px 0px;
 }
@@ -49,7 +49,7 @@ body {
     margin-top: 1em;
     gap: 1em;
     margin-bottom: 1em;
-    
+
 }
 
 button {
